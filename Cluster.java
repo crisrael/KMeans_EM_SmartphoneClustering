@@ -12,8 +12,7 @@ import java.util.Arrays;
 /**
  * The cluster class holds a centroid for the cluster and the pointList, which has
  * all the data points that belong into this cluster.
- * @author Crisrael Lucero
- *
+ * @author Crisrael
  */
 public class Cluster {
 
