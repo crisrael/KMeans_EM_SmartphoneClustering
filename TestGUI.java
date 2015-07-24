@@ -45,7 +45,6 @@ import org.json.JSONObject;
 /**
  * GUI Driver Class
  * @author Crisrael
- *
  */
 @SuppressWarnings("serial")
 public class TestGUI extends JPanel{
