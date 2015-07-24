@@ -10,7 +10,9 @@ import java.util.ArrayList;
 import java.util.Random;
 
 /**
- * The K-Means algorithm.
+ * The K-Means algorithm. Using a defined iterative approach instead of Sum Squared Error
+ * due to computational constraints. Functions included in the event that a Sum Squared Error
+ * approach is desired.
  * @author Crisrael
  */
 public class KMeans {
@@ -54,7 +56,6 @@ public class KMeans {
 					clusterList.get(j).destroyData();
 				}
 			}
-			//System.out.println(costFunction(clusterList));
 		}
 		//Get cluster of interest
 		for(int i = 0; i < clusterList.size(); i++) {
