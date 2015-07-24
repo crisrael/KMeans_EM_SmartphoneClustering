@@ -12,7 +12,6 @@ import java.util.Random;
 /**
  * The K-Means algorithm.
  * @author Crisrael
- *
  */
 public class KMeans {
 	
